@@ -1,0 +1,8 @@
+num = int(input("How many points[0-100]: "))
+if(num > 100 or num < 0): print("Grade: impossible!")
+elif(num >= 90 and num <= 100): print("Grade:",5)
+elif(num >= 80 and num < 90): print("Grade:",4)
+elif(num >= 70 and num < 80): print("Grade:",3)
+elif(num >= 60 and num < 70): print("Grade:",2)
+elif(num >= 50 and num < 60): print("Grade:",1)
+else: print("Grade:","fail")
